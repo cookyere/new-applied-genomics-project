@@ -24,3 +24,4 @@ o	index building
 o	alignment
 o	feature counting
 
+This project uses a subset of RNA-seq data from GEO accession GSE96870, titled “The effect of upper-respiratory infection on transcriptomic changes in the CNS.” The selected dataset contains 6 mouse samples (SRR5364316, SRR5364317, SRR5364318, SRR5364321, SRR5364323, SRR5364330) derived from Mus musculus tissues collected in a study examining transcriptomic responses to influenza A infection in the central nervous system. Sequencing was performed as bulk RNA-seq on the Illumina HiSeq 2500 platform, generating 100 bp paired-end reads.

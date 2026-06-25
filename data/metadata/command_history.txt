@@ -1,0 +1,286 @@
+    1  pwd
+    2  ls
+    3  ls -a
+    4  cd~
+    5  ls
+    6  cd~
+    7  ls -ld
+    8  cd
+    9  ls
+   10  pwd
+   11  echo $HOME
+   12  cd ~
+   13  ls -a
+   14  ls -la
+   15  cd/ home
+   16  cd /home
+   17  ls
+   18  pwd
+   19  cd /mnt
+   20  ls
+   21  cd/mnt/c/USers
+   22  cd/mnt/c/Users
+   23  ls /mnt
+   24  ls /home
+   25  cd /mnt
+   26  ls
+   27  cd c
+   28  ls
+   29  cd/mnt/c/Users/Documents
+   30  cd/mnt/c/USers
+   31  cd USers
+   32  ls
+   33  cd christiana.onwona
+   34  ls
+   35  cd /mnt/c/Users/christiana.onwona/Documents
+   36  ls
+   37  pwd
+   38  ls
+   39  cd applied-genomics-projects/
+   40  ls
+   41  rmdir alignment/
+   42  cd alignment/
+   43  ls
+   44  rmdir bam/
+   45  rmdir logs/
+   46  rmdir sam 
+   47  ls
+   48  rmdir alignment
+   49  ls
+   50  cd -
+   51  ls
+   52  rmdir alignment/
+   53  ls
+   54  cd environment/
+   55  ls
+   56  cd -
+   57  rmdir environment/
+   58  ls
+   59  rmdir install_tools.sh/
+   60  rmdir qc
+   61  cd qc
+   62  ls
+   63  rmdir raw_fastqc/
+   64  rmdir trimmed_fastqc/
+   65  ls
+   66  cd -
+   67  ls
+   68  rmdir qc
+   69  rmdir reference/
+   70  cd reference/
+   71  ls
+   72  rmdir annotation/
+   73  rmdir genome/
+   74  rmdir index/
+   75  cd -
+   76  ls
+   77  rmdir reference/
+   78  ls
+   79  conda config --show channels
+   80  conda env list
+   81  conda create -n rnaseq python=3.10 -y
+   82  conda activate rnaseq
+   83  conda config --show channels
+   84  conda install -y -c bioconda -c conda-forge sra-tools fastqc fastp multiqc \ 
+   85  conda install -y -c conda-forge-c biocondasra-toolsfastqcfastpmultiqchistat2samtoolssubread
+   86  conda config --show channels
+   87  conda config --show-sources
+   88  conda install -c bioconda samtools
+   89  conda install -y sra-tools fastqc fastp multiqc histat2 subread
+   90  conda install -y hisat2
+   91  conda list
+   92  which sra-tools
+   93  which hisat2
+   94  which samtools
+   95  where fastqc
+   96  which fastqc
+   97  conda install fastqc sra-tools
+   98  fastqc --version
+   99  fastp --version
+  100  multiqc --version
+  101  hisat2 --version
+  102  samtools --version
+  103  subread --version
+  104  conda config --show channles
+  105  conda config --show channels
+  106  conda install -c bioconda -c conda-forge fastp multiqc subread
+  107  fastp --version
+  108  multiqc --version
+  109  featureCounts --v
+  110  conda list
+  111  vdb-config --interactics
+  112  vdb-config --interactive
+  113  mkdir -p ncbi_cache
+  114  ls
+  115  cd applied-genomics-projects/
+  116  ls
+  117  cd -
+  118  ls
+  119  cd applied-genomics-projects/
+  120  ls
+  121  cd-
+  122  cd -
+  123  cd biocoding/
+  124  ls
+  125  cd -
+  126  cd applied-genomics-projects/
+  127  ls
+  128  conda env export > environment/rnaseq_environment.yml
+  129  mkdir environment
+  130  ls
+  131  conda env export > environment/rnaseq_environment.yml
+  132  cat environment/rnaseq_environment.yml
+  133  prefetch
+  134  ls
+  135  nano gitignore
+  136  mv gitignore .gitignore
+  137  ls
+  138  nano .gitignore
+  139  nano gitignore
+  140  nano .gitignore
+  141  rm gitignore
+  142  ls
+  143  nano gitignore
+  144  nano .gitignore
+  145  ls -a
+  146  cd -
+  147  ls
+  148  cd
+  149  conda deactivate
+  150  ls
+  151  ssh -T git@github.com
+  152  git clone https://github.com/cookyere/new-applied-genomics-project.git
+  153  cd new-applied-genomics-project/
+  154  cat scripts/00_setup_folders.sh
+  155  pwd
+  156  ls
+  157  pwd
+  158  ls
+  159  find . -name "*.sh"
+  160  mkdir scripts
+  161  nano scripts/00_setup_folders.sh
+  162  chmod +x scripts/00_setup_folders.sh
+  163  ./scripts/00_setup_folders.sh
+  164  ls
+  165  tree
+  166  ls
+  167  cd alignment/
+  168  ls
+  169  cd -
+  170  ls
+  171  touch .gitignore
+  172  ls
+  173  nano .gitignore
+  174  ls -a
+  175  cat .gitignore
+  176  nano .gitignore
+  177  cat Readme.md
+  178  touch README.md
+  179  ls -a
+  180  nano README.md 
+  181  git status
+  182  git add
+  183  git add .
+  184  git commit -m "Set up repository structure and add gitignore"
+  185  git push origin main
+  186  cat ~/.bash_history
+  187  history
+  188  git push origin main
+  189  cat ~/.ssh/id_ed25519.pub
+  190  git remote -v
+  191  git remote set -url origin git@github.com/cookyere/new-applied-genomics-project.git
+  192  ssh -T git@github.com
+  193  git push origin main
+  194  git remote -v
+  195  ls ~/.ssh
+  196  git push -u origin main
+  197  ssh -T git@github.com
+  198  git remote -v
+  199  git remote set-url origin git@github.com:cookyere/new-applied-genomics-project.git
+  200  git remote -v
+  201  git push -u origin main
+  202  which sratools
+  203  conda config --show channels
+  204  conda env list
+  205  conda activate rnaseq
+  206  conda config --show channels
+  207  conda list
+  208  fastqc --version
+  209  vdb-config --interactive
+  210  ls
+  211  mkdir -p ncbi_cache
+  212  ls
+  213  nano .gitignore
+  214  git push -u origin main
+  215  git add .
+  216  git commit -m "update project"
+  217  git push -u origin main
+  218  prefetch SRR5364316
+  219  prefetch SRR5364317
+  220  prefetch SRR5364318 SRR5364321 SRR5364323 SRR5364330
+  221  ls
+  222  cd data
+  223  ls
+  224  cd -
+  225  cd metadata/
+  226  ls
+  227  mv metadata data/
+  228  cd -
+  229  ls
+  230  mv metadata/data
+  231  mv metadata data/
+  232  ls
+  233  cd data/
+  234  ls
+  235  cd -
+  236  cd reference/
+  237  ls
+  238  cd -
+  239  cd qc
+  240  ls
+  241  cd -
+  242  cd alignment/
+  243  ls
+  244  cd -
+  245  cd data/
+  246  cd metadata/
+  247  touch data/metadata/SRR_accessions.txt
+  248  touch SRR_accessions.txt
+  249  nano SRR_accessions.txt 
+  250  ls
+  251  find . -name "*.sh"
+  252  prefetch --check-all
+  253  find ~/ncbi/public/sra -name "SRR5364318 SRR5364321 SRR5364323 SRR5364330"
+  254  find SRR5364318 SRR5364321 SRR5364323 SRR5364330
+  255  ls
+  256  cd -
+  257  cd - -
+  258  cd
+  259  ls
+  260  cd new-applied-genomics-project/
+  261  ls
+  262  cd data/
+  263  ls
+  264  cd
+  265  cd new-applied-genomics-project/
+  266  ls -a
+  267  cd ncbi_cache/
+  268  ls
+  269  cd
+  270  cd new-applied-genomics-project/
+  271  find ~ -name "SRR5364321*" 2>/dev/null
+  272  cd
+  273  cd ncbi_cache
+  274  ls
+  275  cd sra
+  276  ls
+  277  cd
+  278  cd new-applied-genomics-project/
+  279  #!/bin/bash
+  280  ls
+  281  cd data
+  282  ls
+  283  cd metadata/
+  284  ls
+  285  history > -/rna_seq_commands.txt
+  286  history > command_history.txt
