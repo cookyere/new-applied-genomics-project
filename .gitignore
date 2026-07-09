@@ -65,5 +65,5 @@ alignment/bam/*.bam
 alignment/bam/*.bai
 
 #Counts files
-counts/*
 fasterq.tmp.*/
+counts/*.txt
