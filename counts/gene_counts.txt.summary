@@ -1,0 +1,15 @@
+Status	Galaxy11-[HISAT2 on dataset 7 and 8_ aligned reads (BAM)].bam	Galaxy12-[HISAT2 on dataset 9 and 10_ aligned reads (BAM)].bam	Galaxy15-[HISAT2 on dataset 13 and 14_ aligned reads (BAM)].bam	Galaxy33-[HISAT2 on dataset 31 and 32_ aligned reads (BAM)].bam	Galaxy5-[HISAT2 on dataset 1 and 2_ aligned reads (BAM)].bam	Galaxy6-[HISAT2 on dataset 3 and 4_ aligned reads (BAM)].bam
+Assigned	63369515	62610172	66508072	73224512	66385316	62109158
+Unassigned_Unmapped	1095845	1168663	1402725	1366147	1208235	1049157
+Unassigned_Read_Type	0	0	0	0	0	0
+Unassigned_Singleton	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0
+Unassigned_MultiMapping	14469186	12654640	14216330	16026910	13606359	13126589
+Unassigned_Secondary	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0
+Unassigned_NoFeatures	11203655	11417477	11422872	12236262	11683655	11325059
+Unassigned_Overlapping_Length	0	0	0	0	0	0
+Unassigned_Ambiguity	5983133	5768162	6163500	6895715	6033664	5723400
